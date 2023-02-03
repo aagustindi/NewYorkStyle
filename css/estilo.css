@@ -16,6 +16,14 @@ a:visited {
 
 /*********************************************************************Header /*************************/
 
+h1::first-letter{
+    
+    color: red;
+
+}
+h2::first-letter{
+    color: red;
+}
 
 .headerdos {
     text-align: center;

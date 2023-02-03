@@ -380,7 +380,7 @@ figure img {
     height: 300px;
     object-fit: cover;
     border-top-left-radius: 50px;
-    background-color: rgba(146, 79, 132, 0.5);
+    background-color: pink;
     transition: all 1s;
 }
 

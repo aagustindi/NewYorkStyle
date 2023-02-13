@@ -57,6 +57,7 @@
 
     #mapa {
         margin: auto;
+        padding: 0%;
     }
 
     .contactomain {
@@ -109,6 +110,8 @@
 
 /************************************************************MEDIA Q Cel*************************************************/
 @media (max-width: 666px) {
+
+   
     header {
         display: flex;
         flex-direction: column;

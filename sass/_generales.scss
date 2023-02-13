@@ -1,0 +1,26 @@
+/*GENERALES*/
+
+body {
+	font-family: $font-family_1;
+	overflow-x: hidden;
+	background: linear-gradient(to right, rgb(233, 231, 231), white, rgb(233, 231, 231));
+}
+
+@mixin estilolinks {
+	a {
+		&:link {
+			color: $color_1;
+		}
+
+		&:visited {
+			color: $color_1;
+		}
+		&{
+			text-decoration: none;
+		}
+		&:hover{
+			text-decoration: underline;
+		}
+		
+	}
+}

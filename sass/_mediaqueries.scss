@@ -1,0 +1,215 @@
+/************************************************************************Media q Tablet************************/
+
+@media (max-width: 1024px) and (min-width:667px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .menuinicio {
+        display: flex;
+
+        ul {
+            flex-direction: column;
+            margin: auto;
+            font-size: larger;
+        }
+    }
+
+    .headertres {
+        display: none;
+    }
+
+    .mainprimero {
+        display: flex;
+        flex-direction: column;
+        }
+
+    .servicioslashista {
+        margin: auto;
+        margin-top: 100px;
+        font-size: xx-large;
+    }
+
+    .serviciosmanicuria {
+        margin: auto;
+        font-size: xx-large;
+    }
+
+    #imgmain {
+        width: 50%;
+    }
+
+    #imgmaindos {
+        margin: auto;
+        width: 90%;
+    }
+
+    .mainsegundo {
+        display: none;
+    }
+
+    .maintercero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mapa {
+        margin: auto;
+    }
+
+    .contactomain {
+        padding: 20px;
+        margin: auto;
+    }
+
+    .formulario {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footeruno {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .redes {
+        width: 7%;
+    }
+
+    .footertres {
+        text-align: center;
+    }
+
+
+    .logogaleria {
+        margin: auto;
+    }
+
+    .mainserv {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .containeritems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+
+/************************fin media q tablet **************************************/
+
+
+/************************************************************MEDIA Q Cel*************************************************/
+@media (max-width: 666px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes{
+        width: 9% ;
+    }
+    .menuinicio {
+        display: flex;
+
+        ul {
+            flex-direction: column;
+            margin: auto;
+        }
+    }
+
+    .headertres {
+        display: none;
+    }
+
+    .mainprimero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicioslashista {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .serviciosmanicuria {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    #imgmain {
+        width: 70%;
+        margin-left: 10px;
+    }
+
+    #imgmaindos {
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .mainsegundo {
+        display: none;
+    }
+
+    .maintercero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mapa {
+        width: auto;
+        margin: auto;
+    }
+
+    .contactomain {
+        padding: 20px;
+        margin: auto;
+    }
+
+    .formulario {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footeruno {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footertres {
+        text-align: center;
+    }
+
+    .logogaleria {
+        margin: auto;
+    }
+
+    .mainserv {
+        margin: 0;
+        grid-template-columns: 1fr;
+        margin: 25px;
+    }
+
+    .containeritems {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+
+/*********************fin media queries celular**********************************/

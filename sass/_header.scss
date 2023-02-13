@@ -1,0 +1,87 @@
+/*HEADER*/
+
+header {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    width: 100%;
+}
+
+h1 {
+    &::first-letter {
+        color: $color_2;
+    }
+    text-align: center;
+}
+
+h2 {
+    &::first-letter {
+        color: $color_1;
+    }
+}
+
+.headerdos {
+    text-align: center;
+}
+
+.headeruno {
+    text-align: center;
+    margin: auto;
+}
+
+.headertres {
+    margin: auto;
+    text-align: center;
+}
+
+.menuinicio {
+    li {
+        list-style: none;
+        margin: auto;
+
+        &:hover {
+            background-color: $background-color_1;
+            text-decoration: underline;
+            transition: all 1s;
+        }
+    }
+
+    ul {
+        display: flex;
+        padding: 0%;
+
+        li {
+            a {
+                text-decoration: none;
+                color: $color_1;
+            }
+        }
+    }
+}
+
+.redes {
+    width: 15%;
+    padding: 10px;
+}
+
+.logo {
+    width: 33%;
+}
+
+.headerpaginas {
+    display: flex;
+    flex-direction: column;
+}
+
+.logopaginas {
+    width: 22%;
+    display: flex;
+    margin: auto;
+}
+
+.headertienda {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px 10px 40px 10px;
+}
+
+

@@ -10,6 +10,7 @@ h1 {
     &::first-letter {
         color: $color_2;
     }
+
     text-align: center;
 }
 
@@ -23,6 +24,17 @@ h2 {
     text-align: center;
 }
 
+.space{
+    margin: auto;
+}
+.nav-link:hover{
+    font-weight: bold;
+    svg{
+        transform: scale(1.1);
+    }
+}
+
+
 .headeruno {
     text-align: center;
     margin: auto;
@@ -33,30 +45,6 @@ h2 {
     text-align: center;
 }
 
-.menuinicio {
-    li {
-        list-style: none;
-        margin: auto;
-
-        &:hover {
-            background-color: $background-color_1;
-            text-decoration: underline;
-            transition: all 1s;
-        }
-    }
-
-    ul {
-        display: flex;
-        padding: 0%;
-
-        li {
-            a {
-                text-decoration: none;
-                color: $color_1;
-            }
-        }
-    }
-}
 
 .redes {
     width: 15%;
@@ -79,9 +67,8 @@ h2 {
 }
 
 .headertienda {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 30px 10px 40px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 10px 40px 10px;
 }
-
 

@@ -156,7 +156,9 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
+    margin: 20px;
 	margin-bottom: 50px;
+    
 }
 .item {
 	border-radius: 10px;
@@ -184,6 +186,9 @@
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+    h2{
+        font-size: large;
+    }
 	button {
 		border: none;
 		background: none;
@@ -206,3 +211,4 @@
     padding: 55px;
     line-height: 25px;
 }
+

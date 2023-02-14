@@ -1,21 +1,18 @@
 /************************************************************************Media q Tablet************************/
 
 @media (max-width: 1024px) and (min-width:667px) {
+    
+    
     header {
         display: flex;
         flex-direction: column;
         max-width: 100%;
-    }
-
-    .menuinicio {
-        display: flex;
-
-        ul {
-            flex-direction: column;
-            margin: auto;
-            font-size: larger;
+        .space {
+            text-align: center;
+            gap: none;
         }
     }
+
 
     .headertres {
         display: none;
@@ -57,7 +54,6 @@
 
     #mapa {
         margin: auto;
-        padding: 0%;
     }
 
     .contactomain {
@@ -110,24 +106,19 @@
 
 /************************************************************MEDIA Q Cel*************************************************/
 @media (max-width: 666px) {
-
-   
     header {
         display: flex;
         flex-direction: column;
+        .space {
+            text-align: center;
+            gap: none;
+        }
     }
 
     .redes{
         width: 9% ;
     }
-    .menuinicio {
-        display: flex;
-
-        ul {
-            flex-direction: column;
-            margin: auto;
-        }
-    }
+   
 
     .headertres {
         display: none;

@@ -15,12 +15,14 @@ body {
 		&:visited {
 			color: $color_1;
 		}
-		&{
+
+		& {
 			text-decoration: none;
 		}
-		&:hover{
+
+		&:hover {
 			text-decoration: underline;
 		}
-		
+
 	}
 }

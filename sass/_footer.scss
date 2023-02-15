@@ -1,13 +1,15 @@
-/*FOOTER*/ 
+/*FOOTER*/
 
 .footeruno {
-	margin: auto;
+    margin: auto;
 }
+
 .footerdos {
-	text-align: center;
+    text-align: center;
 }
+
 .footertres {
-	margin: auto;
+    margin: auto;
 }
 
 footer {
@@ -20,12 +22,12 @@ footer {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-	text-align: center;
+    text-align: center;
 }
 
-.navpaginas{
+.navpaginas {
     display: flex;
     justify-content: space-evenly;
-	text-align: center;
+    text-align: center;
     @include estilolinks;
 }

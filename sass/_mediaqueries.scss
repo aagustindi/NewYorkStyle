@@ -1,12 +1,13 @@
 /************************************************************************Media q Tablet************************/
 
 @media (max-width: 1024px) and (min-width:667px) {
-    
-    
+
+
     header {
         display: flex;
         flex-direction: column;
         max-width: 100%;
+
         .space {
             text-align: center;
             gap: none;
@@ -21,7 +22,7 @@
     .mainprimero {
         display: flex;
         flex-direction: column;
-        }
+    }
 
     .servicioslashista {
         margin: auto;
@@ -109,16 +110,17 @@
     header {
         display: flex;
         flex-direction: column;
+
         .space {
             text-align: center;
             gap: none;
         }
     }
 
-    .redes{
-        width: 9% ;
+    .redes {
+        width: 9%;
     }
-   
+
 
     .headertres {
         display: none;

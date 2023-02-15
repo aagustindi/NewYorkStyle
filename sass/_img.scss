@@ -3,10 +3,12 @@
 #imgmain {
 	width: 100%;
 }
+
 #imgmaindos {
 	width: 50vw;
 	margin-top: 30px;
 }
+
 #mapa {
 	width: 100%;
 	border-radius: 90px;
@@ -22,15 +24,17 @@
 	justify-content: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-    margin:auto;
+	margin: auto;
 	overflow: hidden;
 }
+
 .imggaleria {
 	width: 450px;
 	height: 550px;
 	object-fit: cover;
 	padding: 6px;
 	transition: all 2s;
+
 	&:hover {
 		cursor: pointer;
 		transform: scale(1.2);
@@ -42,10 +46,16 @@
 }
 
 .fotoellas {
-    width: 50vw;
-    border-radius: 20px;
-    margin: auto;
-    margin-bottom: 50px;
+	width: 50vw;
+	border-radius: 20px;
+	margin: auto;
+	margin-bottom: 50px;
+	transition: all 2s;
+
+	&:hover {
+		transform: scale(1.2);
+		transition: all 2s;
+	}
 }
 
 figure {

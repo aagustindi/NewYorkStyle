@@ -272,6 +272,9 @@ figure img {
   text-align: center;
   transition: all 1s;
 }
+.txtdecos h3 {
+  margin-top: 10px;
+}
 .txtdecos:hover {
   transform: scale(1.1);
   background-color: rgba(0, 0, 0, 0.7);
@@ -369,6 +372,9 @@ footer {
   flex-direction: column;
   max-width: 100%;
   text-align: center;
+}
+.footergaleria p {
+  margin-top: 15px;
 }
 
 .navpaginas {

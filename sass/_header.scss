@@ -17,8 +17,9 @@ h1 {
 
 h2 {
     &::first-letter {
-        color: $color_1;
+        color: $color_2;
     }
+    text-align: center;
 }
 
 .headerdos {

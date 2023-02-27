@@ -21,8 +21,11 @@ h1::first-letter {
   color: red;
 }
 
+h2 {
+  text-align: center;
+}
 h2::first-letter {
-  color: black;
+  color: red;
 }
 
 .headerdos {
@@ -213,6 +216,9 @@ figure img {
 }
 
 .boton {
+  border-top: none;
+  background: none;
+  border-radius: 30px;
   margin: auto;
   width: 75px;
 }
@@ -276,7 +282,6 @@ figure img {
   margin-top: 10px;
 }
 .txtdecos:hover {
-  transform: scale(1.1);
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
 }
@@ -346,6 +351,22 @@ figure img {
 .textohistoria {
   padding: 55px;
   line-height: 25px;
+}
+
+.titulo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+}
+.titulo h1 {
+  margin-bottom: 40px;
+}
+.titulo video {
+  max-width: 70%;
+  max-height: 70%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 30px;
 }
 
 /*FOOTER*/

@@ -80,6 +80,9 @@
 }
 
 .boton {
+    border-top: none;
+    background: none;
+    border-radius: 30px;
     margin: auto;
     width: 75px;
 }
@@ -146,7 +149,6 @@
     }
 
     &:hover {
-        transform: scale(1.1);
         background-color: $background-color_2;
         color: $color_3;
     }
@@ -226,4 +228,20 @@
 .textohistoria {
     padding: 55px;
     line-height: 25px;
+}
+
+.titulo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    h1{
+    margin-bottom: 40px;
+    }
+    video{
+        max-width: 70%;
+        max-height: 70%;
+        margin: auto;
+        margin-top: 25px;
+        border-radius: 30px;
+    }
 }

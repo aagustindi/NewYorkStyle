@@ -259,11 +259,6 @@ figure img {
 .conteiner img {
   width: 100%;
   border-radius: 25px;
-  transition: all 2s;
-}
-.conteiner img:hover {
-  transform: scale(1.3);
-  transition: all 3s;
 }
 
 .mainserv {

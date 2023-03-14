@@ -8,6 +8,21 @@ body {
 
 }
 
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track{
+	background: FFFFFF;
+}
+
+::-webkit-scrollbar-thumb{
+	background: $color_4;
+	border-radius: 10px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
 @mixin estilolinks {
 	a {
 		&:link {

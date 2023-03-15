@@ -180,7 +180,7 @@
         height: 300px;
         object-fit: cover;
         border-top-left-radius: 50px;
-        background-color: $background-color_3;
+        background: radial-gradient(circle, rgb(187, 195, 202) 0% ,$color_4 100%);
         transition: all 1s;
     }
 

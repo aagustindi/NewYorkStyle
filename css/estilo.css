@@ -323,7 +323,7 @@ figure img {
   height: 300px;
   object-fit: cover;
   border-top-left-radius: 50px;
-  background-color: rgb(197, 190, 191);
+  background: radial-gradient(circle, rgb(187, 195, 202) 0%, antiquewhite 100%);
   transition: all 1s;
 }
 .item figure {
